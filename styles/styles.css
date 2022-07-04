@@ -7,9 +7,6 @@
     font-family: 'Lekton', sans-serif;
 }
 
-
-
-
 .showcase{ 
     position: absolute;
     right: 0; 
@@ -34,6 +31,27 @@
     display: flex; 
     align-items: center;
     justify-content: space-between;
+    flex: 1 0; 
+}
+
+.showcase nav { 
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid red;
+    min-width: 100vh;
+}
+
+nav ul { 
+    font-size: 20px;
+    display: flex; 
+    gap: 40px;
+    list-style-type: none;
+}
+
+nav ul li {
+    
+    display: inline-block;
 }
 
 
@@ -43,8 +61,7 @@ a:visited,
 a:hover,
 a:active{
   text-decoration: none;
+  color: white;
 }
 
-ul{
-  list-style-type: none;
-}
+
