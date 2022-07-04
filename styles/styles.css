@@ -21,6 +21,10 @@
     z-index: 2;
 }
 
+.logo { 
+    cursor: pointer;
+}
+
 .showcase header{ 
     position: absolute; 
     top: 0; 
