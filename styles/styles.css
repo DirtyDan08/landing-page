@@ -10,7 +10,6 @@
 
 header { 
     display: flex; 
-    border: 1px solid red; 
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
@@ -31,9 +30,12 @@ header {
 .intro { 
     display: flex; 
     flex-direction: column;
-    border: 1px solid orange;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.section-title{ 
+    font-size: 40px;
 }
 
 .intro > * { 
@@ -44,14 +46,12 @@ header {
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid blueviolet;
     margin-left: 25%;
     margin-right: 25%; 
 }
 
 .record-item{ 
     display: flex; 
-    border: 1px solid yellow;
     flex-direction: column;
     text-align: center;
     width: 200px;
@@ -64,10 +64,25 @@ img {
     border: 1px solid grey;
 }
 
+.ly-otd { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
+
+
+.lyric-text{ 
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
 
 .logo { 
     cursor: pointer;
-    
 }
 
 nav ul { 
@@ -77,6 +92,7 @@ nav ul {
     list-style-type: none;
     
 }
+
 
 nav ul li {
     display: inline-block;
