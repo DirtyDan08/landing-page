@@ -8,12 +8,27 @@
     padding: 0;
     font-family: 'Lekton', sans-serif;
     text-align: center;
-    background: white;
+    color: white;
 }
 
 .logo { 
     cursor: pointer;
 }
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    bottom: 0; 
+  }
+
+
+
+
 
 header { 
     display: flex; 
@@ -23,6 +38,11 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     min-width: 100vh;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    padding: 10px;
+    text-align: center;
 }
 
 
@@ -130,7 +150,6 @@ img {
     backdrop-filter: blur(14px);
     padding: 10px;
     text-align: center;
-    border: 1px solid red; 
     margin-left: 35%;
     margin-right: 35%;
 
@@ -162,7 +181,6 @@ a:visited,
 a:hover,
 a:active{
   text-decoration: none;
-  color: black;
 }
 
 
