@@ -152,9 +152,12 @@ img {
     text-align: center;
     margin-left: 35%;
     margin-right: 35%;
-
 }
 
+
+.submit { 
+    color: black;
+}
 input { 
     text-align: start;
 
