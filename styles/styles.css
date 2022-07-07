@@ -55,13 +55,22 @@ header {
     flex-basis: 100%;
 }
 
+.record-container { 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    padding: 10px;
+    text-align: center;
+}
+
 .records { 
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 25%;
-    margin-right: 25%; 
-    gap: 20px;
+    margin-left: 35%;
+    margin-right: 35%; 
+    gap: 30px;
+    
 }
 
 .record-item{ 
@@ -84,6 +93,11 @@ img {
     justify-content: center;
     margin-left: 10%; 
     margin-right: 10%; 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    padding: 10px;
+    text-align: center;
 }
 
 
@@ -95,6 +109,11 @@ img {
 .recs { 
     display: flex; 
     flex-direction: column;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    padding: 10px;
+    text-align: center;
 }
 
 .inputs { 
@@ -103,6 +122,18 @@ img {
     justify-content: center;
     align-items: center;
     gap: 5px;
+}
+
+.footer { 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid red; 
+    margin-left: 35%;
+    margin-right: 35%;
+
 }
 
 input { 
